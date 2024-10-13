@@ -90,7 +90,7 @@ class CalorieTrackerApp:
             style = ttk.Style()
             style.configure("Pink.TButton", background=self.button_color, foreground="white", font=("Arial", 12))
             
-            # Обновляем цвет меток
+        
             for widget in self.root.winfo_children():
                 if isinstance(widget, ttk.Label):
                     widget.configure(background=color)
